@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=IM%20Fell%20French%20Canon%20SC:700|IM%20Fell%20French%20Canon%20SC:400');
+@import url('https://fonts.google.com/specimen/VT323');
 
 body {
     background-color: rgb(219, 222, 229);
     /*18, 19, 22, .95*/
     
-    font-family: 'IM Fell French Canon SC';
+    font-family: 'VT323';
     font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'IM Fell French Canon SC';
+    font-family: 'VT323';
     font-weight: 700;
 }
 
