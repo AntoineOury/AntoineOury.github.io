@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
-    background-color: rgb(219, 222, 229);
-    /*18, 19, 22, .95*/
+    background-color: rgba(18, 19, 22, .95);
+    /*219, 222, 229*/
     
     font-family: 'VT323';
     font-weight: 400;
@@ -16,15 +16,16 @@ h1, h2, h3, h4, h5 {
 html {font-size: 100%;} /* 16px */
 
 h1 {font-size: 4.210rem; /* 67.36px */
-    color: rgb(17,17,17);
+    color: whitesmoke;
+    /*17,17,17*/
     text-align: center;}
 
 h2 {font-size: 3.158rem; /* 50.56px */
-    color: rgb(17,17,17);
+    color: whitesmoke;
     text-align: center;}
 
 h3 {font-size: 2.369rem; /* 37.92px */
-    color: rgb(17,17,17);
+    color: whitesmoke;
     text-align: center;}
 
 h4 {font-size: 1.777rem; /* 28.48px */}
