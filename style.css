@@ -1,16 +1,8 @@
-/*body {*/
-/*    background-color: rgba(18, 19, 22, .95);*/
-/*}*/
-
-/*h1 {*/
-/*    color: whitesmoke;*/
-/*    text-align: center;*/
-/*}*/
-
 @import url('https://fonts.googleapis.com/css?family=IM%20Fell%20French%20Canon%20SC:700|IM%20Fell%20French%20Canon%20SC:400');
 
 body {
-    background-color: rgba(18, 19, 22, .95);
+    background-color: rgb(219, 222, 229);
+    /*18, 19, 22, .95*/
     
     font-family: 'IM Fell French Canon SC';
     font-weight: 400;
@@ -24,7 +16,7 @@ h1, h2, h3, h4, h5 {
 html {font-size: 100%;} /* 16px */
 
 h1 {font-size: 4.210rem; /* 67.36px */
-    color: whitesmoke;
+    color: rgb(17,17,17);
     text-align: center;}
 
 h2 {font-size: 3.158rem; /* 50.56px */}
