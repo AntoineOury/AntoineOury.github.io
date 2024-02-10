@@ -14,22 +14,28 @@ h1, h2, h3, h4, h5 {
 }
 
 .menucontainer{
-   display: flex;
+    display: flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
 }
+
 .btn {
-    border-radius: 5px;
+    height: 100px;
+    border-radius: 4px;
+    padding: 5px;
     color: transparent;
     background: transparent;
 }
 
 .btn:hover{
-    border-color: aqua;
+    border-color: greenyellow;
 }
 
-
+.resumedownload{
+   
+    color:whitesmoke;
+}
 
 html {font-size: 100%;} /* 16px */
 h1 {font-size: 4.210rem; /* 67.36px */
