@@ -19,21 +19,6 @@ h1, h2, h3, h4, h5{
 /*    align-items: center;*/
 /*}*/
 
-.btn {
-    background: transparent;
-    border-color: transparent;
-    color: whitesmoke;
-    font-family: VT323, serif;
-    font-size: 50px;
-    margin-top: 50px;
-    padding: 20px;
-}
-
-.btn:hover{
-    border-color: greenyellow;
-    transition: 0.8s;
-}
-
 .resumedownload{
    margin-left: 50px;
     color:whitesmoke;
@@ -42,15 +27,35 @@ h1, h2, h3, h4, h5{
 
 .menuContainer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    gap: 100px;
+    gap: 50px;
+    align-items: center;
 }
 
+.btn {
+    background: transparent;
+    border-color: transparent;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-family: VT323, serif;
+    font-size: 50px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.btn:hover{
+    border-color: greenyellow;
+    transition: 0.8s;
+}
+
+/*Footer section*/
 .footer {
-    width: 100%;
     padding: 70px 30px 20px;
+    position: fixed;
+    bottom: 0;
 }
 .socialIcons {
     display: flex;
@@ -73,6 +78,8 @@ h1, h2, h3, h4, h5{
     transition: 0.8s;
 }
 
+
+/*General text section*/
 
 html {font-size: 100%;} /* 16px */
 h1 {font-size: 100px; /* 4.210rem;*/ /* 67.36px */
