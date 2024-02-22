@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
 body {
     background-color: rgba(18, 19, 22, .95);
     /*219, 222, 229*/
@@ -8,47 +7,80 @@ body {
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5{
     font-family: 'VT323';
-    font-weight: 700;
+    font-weight: 600;
 }
 
-.menucontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/*.menucontainer{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
 .btn {
-    height: 100px;
-    border-radius: 4px;
-    padding: 5px;
-    color: transparent;
     background: transparent;
+    border-color: transparent;
+    color: whitesmoke;
+    font-family: VT323, serif;
+    font-size: 50px;
+    margin-top: 50px;
+    padding: 20px;
 }
 
 .btn:hover{
     border-color: greenyellow;
+    transition: 0.8s;
 }
 
 .resumedownload{
-   
+   margin-left: 50px;
     color:whitesmoke;
+    text-align: left;
 }
 
-.menubuttons{
-    text-align: center;
+.menuContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 100px;
 }
+
+.footer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.socialIcons a i{
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 30%;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+.socialIcons a i:hover {
+    background-color: greenyellow;
+    transition: 0.8s;
+}
+
 
 html {font-size: 100%;} /* 16px */
-h1 {font-size: 4.210rem; /* 67.36px */
+h1 {font-size: 100px; /* 4.210rem;*/ /* 67.36px */
     color: whitesmoke;
     /*17,17,17*/
     text-align: center;}
 h2 {font-size: 3.158rem; /* 50.56px */
-    color: whitesmoke;
-    text-align: center;}
+    color: whitesmoke;}
 h3 {font-size: 2.369rem; /* 37.92px */
     color: whitesmoke;}
 h4 {font-size: 1.777rem; /* 28.48px */}
