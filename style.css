@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+    font-family: "MyFont";
+    src: url('C:\Users\voury\Desktop\Projects\AntoineOury.github.io\Myfont-Regular.ttf');
+}
+
 body {
     background-color: rgba(18, 19, 22, .95);
     /*219, 222, 229*/
